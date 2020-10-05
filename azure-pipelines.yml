@@ -27,7 +27,7 @@ steps:
     credentialsOption: inputs
     serverUrl: 'ftp://fenek.endora.cz'
     username: shadowrun4fancz
-    password: 'Shadowrun85'
+    password: "Shadowrun85"
     rootDirectory: '$(System.DefaultWorkingDirectory)'
     remoteDirectory: '/folderTest'
     trustSSL: true
