@@ -24,7 +24,8 @@ steps:
 - task: FtpUpload@2
   displayName: 'FTP Upload'
   inputs:
-    credentialsOption: inputs
+    credentialsOption: serviceEndpoint
+    serverEndpoint: 
     serverUrl: 'ftp://fenek.endora.cz'
     username: shadowrun4fancz
     password: Shadowrun85
