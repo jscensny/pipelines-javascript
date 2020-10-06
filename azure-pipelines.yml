@@ -23,12 +23,12 @@ steps:
 
 - task: FtpUpload@2
   displayName: 'FTP Upload'
-  inputs:
+  inputs: 
     credentialsOption: serviceEndpoint
-    serverEndpoint: 
-    serverUrl: 'ftp://fenek.endora.cz'
-    username: shadowrun4fancz
-    password: Shadowrun85
+    serverEndpoint: FTPUploadEndoraService
+    # serverUrl: 'ftp://fenek.endora.cz'
+    # username: shadowrun4fancz
+    # password: Shadowrun85
     rootDirectory: '$(System.DefaultWorkingDirectory)'
     remoteDirectory: '/folderTest'
     trustSSL: true
